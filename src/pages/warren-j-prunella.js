@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
 export default function WJP() {
   return (
     <Layout>
+      <Helmet title="Warren J Prunella - President | PJP Economics" />
       <div>
         <h1>Warren J Prunella</h1>
         <h3>

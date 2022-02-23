@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 import { Row, Col } from "react-bootstrap"
 
 export default function Services() {
   return (
     <Layout>
+      <Helmet title="Services | PJP Economics" />
       <div>
         <h1>Services</h1>
         <hr></hr>

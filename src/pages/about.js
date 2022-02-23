@@ -1,11 +1,16 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import { Container, Image, Row, Col } from "react-bootstrap"
+
+import pjp from "../images/pjp.png"
+import wjp from "../images/wjp.png"
 
 export default function About() {
   return (
     <Layout>
+      <Helmet title="About Us | PJP Economics" />
       <div>
         <Container>
           <h1>About Us</h1>
@@ -24,7 +29,7 @@ export default function About() {
         <Row>
           <Col md={6} className="text-center mt-3 mb-3">
             <Image
-              src="/pjp.png"
+              src={pjp}
               alt="PJP Headshot"
               className="fluid mb-3"
               height="300"
@@ -39,7 +44,7 @@ export default function About() {
           </Col>
           <Col md={6} className="text-center mt-3 mb-3">
             <Image
-              src="/wjp.png"
+              src={wjp}
               alt="WJP Headshot"
               className="fluid mb-3"
               height="300"

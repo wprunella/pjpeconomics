@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import "../styles/global.css"
@@ -6,6 +7,9 @@ import "../styles/global.css"
 export default function Home() {
   return (
     <div className="pagebackground">
+      <Helmet>
+        <title>Home | PJP Economics</title>
+      </Helmet>
       <Layout>
         <section className="text-center" class="banner-content">
           <div>
