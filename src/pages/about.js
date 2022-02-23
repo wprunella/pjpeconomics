@@ -30,7 +30,9 @@ export default function About() {
               height="300"
             />
             <h3>Priscila Jimenez Prunella</h3>
-            <h5>Owner and CEO</h5>
+            <h5>
+              <em>Owner and CEO</em>
+            </h5>
             <Link to="/priscila-jimenez-prunella" className="btn btn-success">
               Read Bio
             </Link>
@@ -43,7 +45,9 @@ export default function About() {
               height="300"
             />
             <h3>Warren J Prunella</h3>
-            <h5>President</h5>
+            <h5>
+              <em>President</em>
+            </h5>
             <Link to="/warren-j-prunella" className="btn btn-success">
               Read Bio
             </Link>
