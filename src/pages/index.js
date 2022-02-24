@@ -11,7 +11,7 @@ export default function Home() {
         <title>Home | PJP Economics</title>
       </Helmet>
       <Layout>
-        <section className="text-center" class="banner-content">
+        <section className="text-center banner-content">
           <div>
             <h2>Consulting</h2>
             <h2 className="mt-4">Economic Impact Analysis</h2>
