@@ -6,7 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  // pathPrefix: "/",
   siteMetadata: {
     title: `PJP Economics`,
     description: `PJP Economics - Consulting, Economic Impact Analysis, Project Management and Program Evaluation.`,
