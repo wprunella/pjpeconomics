@@ -2,9 +2,9 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Header from "./Header"
 import Footer from "./Footer"
-import "bootstrap/dist/css/bootstrap.min.css"
 import { Container } from "react-bootstrap"
 
+import "../styles/custom.scss"
 import "../styles/global.css"
 import favicon from "../images/PJPEconFavicon.svg"
 

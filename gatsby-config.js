@@ -13,5 +13,15 @@ module.exports = {
     // image: "/snape.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
     // twitterUsername: "@occlumency",
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: { implementation: require("sass") },
+    },
+  ],
+}
+
+flags: {
+  THE_FLAG: false
 }
