@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2l6:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return c}));var a=t("q1tI"),l=t.n(a),o=t("7oih"),r=t("qhky");function c(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Page Not Found | PJP Economics"}),l.a.createElement("div",null,l.a.createElement("h2",null,"Sorry! Page does not exist."),l.a.createElement("p",null,"Please try another page.")))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-0ba102e67cb48dc5d3ff.js.map
