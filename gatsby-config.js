@@ -20,6 +20,7 @@ module.exports = {
       options: { implementation: require("sass") },
     },
   ],
+  trailingSlash: "always",
 }
 
 flags: {
